@@ -1,11 +1,11 @@
 import requests
 from pprint import pprint
 
-url = "https://servicodados.ibge.gov.br/api/v1/localidades/municipios"
-#params = {
-#    "localidade":33 #RJ
-#}
-response = requests.get(url)
+url = "https://servicodados.ibge.gov.br/api/v1/localidades/estados"
+params = {
+    "view": "nivelado" 
+}
+response = requests.get(url, params = params)
 
 try:
     response.raise_for_status()
