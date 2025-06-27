@@ -1,1 +1,6 @@
-5 + 4
+# comentário
+print("Olá mundo")
+print("Aprendendo Python")
+"""
+    Comentario multilinhas
+"""
