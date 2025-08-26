@@ -7,4 +7,3 @@ noteMovie = float(input("Digite a nota do filme:\n"))
 print(type(name))
 print(type(yearLaunch))
 print(type(noteMovie))
-
